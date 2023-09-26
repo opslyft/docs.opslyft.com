@@ -68,6 +68,11 @@ const config = {
     ({
       // Replace with your project's social card
       image: "img/opslyft-social-card.png",
+      colorMode: {
+        defaultMode: "light",
+        disableSwitch: true,
+        respectPrefersColorScheme: false,
+      },
       navbar: {
         title: "",
         logo: {

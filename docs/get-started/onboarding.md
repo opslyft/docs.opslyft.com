@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+pagination_next: integrations/aws/setup-aws
 ---
 
 # Onboarding

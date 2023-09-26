@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+pagination_next: integrations/gcp/setup-gcp
 ---
 
 # Azure

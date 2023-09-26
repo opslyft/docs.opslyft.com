@@ -1,5 +1,6 @@
 ---
 sidebar_position: 3
+pagination_next: features/cost-optimization-guide/csi
 ---
 
 # Showback & Cost Allocation

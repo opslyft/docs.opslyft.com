@@ -1,5 +1,6 @@
 ---
 sidebar_position: 1
+pagination_prev: get-started/onboarding
 ---
 
 # Setup AWS
