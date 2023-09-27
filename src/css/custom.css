@@ -6,13 +6,20 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
+  --ifm-color-primary: #006bff;
   --ifm-color-primary-dark: #29784c;
   --ifm-color-primary-darker: #277148;
   --ifm-color-primary-darkest: #205d3b;
   --ifm-color-primary-light: #33925d;
   --ifm-color-primary-lighter: #359962;
   --ifm-color-primary-lightest: #3cad6e;
+  /* --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e; */
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -29,9 +36,9 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-/* .footer {
-  background-color: #5A0A76;
-} */
+.footer {
+  background-color: #0B3558;
+}
 
 .aa-DetachedSearchButton {
   border: 1px solid #E3E3E9 !important;
@@ -45,10 +52,10 @@
   border-color: #CFCFD6 !important;
 }
 
-/* .aa-DetachedSearchButton:focus {
-  box-shadow: 0 0 0 3px #F1C9FF !important;
-  border-color: #9C25C7 !important;
-} */
+.aa-DetachedSearchButton:focus {
+  box-shadow: 0 0 0 3px #E9F4FF !important;
+  border-color: #006bff !important;
+}
 
 .aa-DetachedSearchButtonIcon {
   fill: #CFCFD6 !important;
@@ -67,7 +74,7 @@
 }
 
 /* .navbar__link:hover {
-  color: #9C25C7 !important;
+  color: #006bff !important;
 } */
 
 .aa-DetachedFormContainer .aa-Form {
@@ -75,15 +82,15 @@
   border-radius: 6px !important;
 }
 
-/* .aa-DetachedFormContainer .aa-Form:hover {
-  color: #9C25C7 !important;
-} */
+.aa-DetachedFormContainer .aa-Form:hover {
+  color: #006bff !important;
+}
 
-/* .aa-DetachedFormContainer .aa-Form:focus-within,
+.aa-DetachedFormContainer .aa-Form:focus-within,
 .aa-Form[focus-within] {
-  box-shadow: 0 0 0 3px #F1C9FF !important;
-  border-color: #9C25C7 !important;
-} */
+  box-shadow: 0 0 0 3px #E9F4FF !important;
+  border-color: #006bff !important;
+}
 
 
 .aa-DetachedFormContainer .aa-SubmitButton {
