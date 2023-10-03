@@ -11,15 +11,16 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://docs.opslyft.com",
+  url: "https://github.com",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/docs.opslyft.com/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "opslyft", // Usually your GitHub org/user name.
-  projectName: "docs.opslyft", // Usually your repo name.
+  projectName: "docs.opslyft.com", // Usually your repo name.
+  deploymentBranch: "ph-pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
