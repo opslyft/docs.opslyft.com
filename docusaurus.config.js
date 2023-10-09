@@ -116,7 +116,7 @@ const config = {
             items: [
               {
                 label: "AWS",
-                to: "/get-started/integrations/aws/setup-aws",
+                to: "/integrations/aws/setup-aws",
               },
               {
                 label: "Azure",
