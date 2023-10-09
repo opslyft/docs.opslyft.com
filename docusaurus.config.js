@@ -98,8 +98,74 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Introduction",
                 to: "/",
+              },
+              {
+                label: "Connect Providers",
+                to: "/get-started/connect-providers",
+              },
+              {
+                label: "Onboarding",
+                to: "/get-started/onboarding",
+              },
+            ],
+          },
+          {
+            title: "Integrations",
+            items: [
+              {
+                label: "AWS",
+                to: "/get-started/integrations/aws/setup-aws",
+              },
+              {
+                label: "Azure",
+                to: "/integrations/azure",
+              },
+              {
+                label: "GCP",
+                to: "/integrations/gcp/setup-gcp",
+              },
+              {
+                label: "Kubernetes",
+                to: "/integrations/kubernetes",
+              },
+              {
+                label: "Snowflake",
+                to: "/integrations/snowflake",
+              },
+            ],
+          },
+          {
+            title: "Features",
+            items: [
+              {
+                label: "Cost Explorer ++",
+                to: "/features/cost-explorer",
+              },
+              {
+                label: "Showback",
+                to: "/features/showback-&-cost-allocation",
+              },
+              {
+                label: "CSI",
+                to: "/features/cost-optimization-guide/csi",
+              },
+              {
+                label: "Instance Scheduler",
+                to: "/features/cost-optimization-guide/instance-scheduler",
+              },
+              {
+                label: "Asset Management",
+                to: "/features/asset-management",
+              },
+              {
+                label: "Reporting & Alerting",
+                to: "/features/reporting-&-alerting",
+              },
+              {
+                label: "Budget Management",
+                to: "/features/budget-management",
               },
             ],
           },
@@ -107,16 +173,20 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/",
+                label: "Slack",
+                href: "https://opslyftcommunity.slack.com/join/shared_invite/zt-21ed0evj5-PynpSSpPw7KfKl9yHzX7nw",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/",
+                label: "LinkedIn",
+                href: "https://www.linkedin.com/company/opslyft",
               },
               {
                 label: "Twitter",
-                href: "https://twitter.com/",
+                href: "https://twitter.com/opslyft",
+              },
+              {
+                label: "Facebook",
+                href: "https://facebook.com/opslyft",
               },
             ],
           },
@@ -129,7 +199,7 @@ const config = {
               },
               {
                 label: "GitHub",
-                href: "https://github.com/",
+                href: "https://github.com/opslyft/docs.opslyft.com",
               },
             ],
           },
