@@ -13,7 +13,7 @@ sidebar_position: 2
 
 ## Connecting Your Cloud Providers
 
-![Cloud Optimization](/img/providers.png)
+![Cloud Optimization](/img/providers1.png)
 
 1. **Access Your Account:** Access your OpsLyft account by logging in with your credentials or signing up if you're new to OpsLyft.
 2. **Select Your Cloud Provider:**
