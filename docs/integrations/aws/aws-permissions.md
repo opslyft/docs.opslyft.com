@@ -8,119 +8,28 @@ To ensure a seamless integration of your Amazon Web Services (AWS) account with 
 
 ## General Permissions
 
-```bash
-"cloudwatch:DescribeAlarmHistory",
-"cloudwatch:DescribeAlarms",
-"cloudwatch:DescribeAlarmsForMetric",
-"cloudwatch:GetMetricData",
-"cloudwatch:GetMetricStatistics",
-"cloudwatch:ListMetrics",
-"cloudwatch:PutMetricData",
-"cloudwatch:PutMetricAlarm"
-
-"athena:List*",
-"athena:Batch*"
-
-"aws-portal:ViewPaymentMethods",
-"aws-portal:ViewAccount",
-"aws-portal:ViewBilling",
-"aws-portal:ViewUsage",
-"cur:PutReportDefinition",
-"cur:DescribeReportDefinitions"
-
-"dynamodb:DescribeTable",
-"dynamodb:ListTables"
-
-"s3:ListAllMyBuckets",
-"s3:ListBucket"
-
-"ec2:Describe*",
-"ec2:List*"
-
-"lambda:ListFunctions"
-
-"rds:DescribeDBInstances"
-
-"cloudfront:Get*",
-"cloudfront:List*"
-
-"redshift:Describe*",
-"redshift:GetReservedNodeExchangeOfferings",
-"redshift:View*"
-
-"elasticache:List*",
-"elasticache:Describe*"
-
-"eks:List*",
-"eks:Describe*"
-
-"es:Describe*",
-"es:List*"
-
-"ecs:List*",
-"ecs:Describe*"
-
-"elasticloadbalancing:Describe\*"
-
-"autoscaling:Describe\*"
-
-"elasticmapreduce:List*",
-"elasticmapreduce:Describe*"
-
-"sagemaker:List*",
-"sagemaker:Describe*"
-
-"elasticbeanstalk:List*",
-"elasticbeanstalk:Describe*"
-
-"datapipeline:List*",
-"datapipeline:Describe*"
-
-"lightsail:GetRelationalDatabaseEvents",
-"lightsail:GetRelationalDatabaseLogEvents",
-"lightsail:GetRelationalDatabaseLogStreams",
-"lightsail:GetLoadBalancerMetricData",
-"lightsail:GetInstanceMetricData"
-
-"route53:List*",
-"route53domains:Check*",
-"route53domains:List*",
-"route53domains:View*",
-"route53resolver:List\*"
-
-"backup:Describe*",
-"backup:List*",
-"batch:List*",
-"batch:Describe*",
-"sts:GetCallerIdentity",
-"cloudtrail:LookupEvents",
-"ram:Get*",
-"ram:List*",
-"servicequotas:Get*",
-"servicequotas:List*",
-"service-quotas:List*",
-"service-quotas:Get*",
-"servicecatalog:Describe*",
-"servicecatalog:List*",
-"organizations:List*",
-"organizations:Describe*",
-"apigateway:GET",
-"sqs:List*",
-"mq:List*",
-"logs:Describe*",
-"logs:FilterLogEvents",
-"logs:ListTagsLogGroup",
-"logs:StartQuery",
-"logs:TestMetricFilter",
-"machinelearning:Describe*",
-"acm:List*",
-"glue:Get*",
-"kinesis:List*",
-"swf:List*",
-"kms:List*",
-"savingsplans:Describe*",
-"savingsplans:List\*"
-```
+| Service | Permissions taken |
+|---|---|
+| cloudwatch | cloudwatch:DescribeAlarmHistory<br/>cloudwatch:DescribeAlarms<br/>cloudwatch:DescribeAlarmsForMetric<br/>cloudwatch:GetMetricData<br/>cloudwatch:GetMetricStatistics<br/>cloudwatch:ListMetrics<br/>cloudwatch:PutMetricData<br/>cloudwatch:PutMetricAlarm |
+| athena | dynamodb:DescribeTable<br/>dynamodb:ListTables |
+| S3 | s3:ListAllMyBuckets<br/>s3:ListBucket |
+| EC2 | ec2:Describe*<br/>ec2:List* |
+| lambda | lambda:ListFunctions |
+| RDS | rds:Describe* |
+| Cloudfront | cloudfront:Get*<br/>cloudfront:List* |
+| Redshift | redshift:Describe*<br/>redshift:GetReservedNodeExchangeOfferings<br/>redshift:View* |
+| Elasticache | elasticache:List*<br/>elasticache:Describe* |
+| Elastic Kubernetes Service(EKS) | eks:List*<br/>eks:Describe* |
+| Elastic Container Service(ECS) | ecs:List*<br/>ecs:Describe* |
+| Elasticsearch | es:Describe*<br/>es:List* |
+| Elasticloadbalancing | elasticloadbalancing:Describe* |
+| elasticmapreduce | elasticmapreduce:List*<br/>elasticmapreduce:Describe* |
+| Sagemaker | sagemaker:List*<br/>sagemaker:Describe* |
+| ElasticBeanstalk | elasticbeanstalk:List*<br/>elasticbeanstalk:Describe* |
+| lightsail | lightsail:GetRelationalDatabaseEvents<br/>lightsail:GetRelationalDatabaseLogEvents<br/>lightsail:GetRelationalDatabaseLogStreams<br/>lightsail:GetLoadBalancerMetricData<br/>lightsail:GetInstanceMetricData |
+| route53 | route53:List*<br/>route53domains:Check*<br/>route53domains:List*<br/>route53domains:View*<br/>route53resolver:List* |
+| autoscaling | autoscaling:Describe* |
+| Others | backup:Describe*<br/>backup:List*<br/>batch:List*<br/>batch:Describe*<br/>sts:GetCallerIdentity<br/>cloudtrail:LookupEvents<br/>ram:Get*<br/>ram:List*<br/>servicequotas:Get*<br/>servicequotas:List*<br/>service-quotas:List*<br/>service-quotas:Get*<br/>servicecatalog:Describe*<br/>servicecatalog:List*<br/>organizations:List*<br/>organizations:Describe*<br/>apigateway:Get*<br/>sqs:List*<br/>mq:List*<br/>logs:Describe*<br/>logs:FilterLogEvents<br/>logs:ListTagsLogGroup<br/>logs:StartQuery<br/>logs:TestMetricFilter<br/>machinelearning:Describe*<br/>acm:List*<br/>glue:Get*<br/>kinesis:List*<br/>swf:List*<br/>kms:List*<br/>savingsplans:Describe*<br/>savingsplans:List*<br/>aws-portal:ViewPaymentMethods<br/>aws-portal:ViewAccount<br/>aws-portal:ViewBilling<br/>aws-portal:ViewUsage<br/>cur:PutReportDefinition<br/>cur:DescribeReportDefinitions |
 
 ## Specific Permissions
 
