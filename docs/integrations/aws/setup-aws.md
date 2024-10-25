@@ -21,6 +21,8 @@ Integrating your AWS account with OpsLyft is a straightforward process encompass
 - Utilizing the permissions provided to us via the IAM role, we first list down the existing CURs in your AWS account and allow you to select the ones you want to use for integration.
 - If no CUR is found or if you prefer to create a new one, OpsLyft can assist you in generating a new Cost and Usage Report for the integration process.
 
+![AWS Step 2: Access to Cost and Usage Reports](/img/aws/aws-step-2.png)
+
 ### Step 3: Data Transfer Permissions
 
 - After the successful creation of the "Cost and Usage Report" (CUR)

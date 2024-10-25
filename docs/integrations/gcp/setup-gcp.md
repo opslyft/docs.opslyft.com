@@ -11,9 +11,13 @@ This guide covers the integration process, which involves two key steps: Billing
 
 To begin the integration, OpsLyft requires access to your GCP Cost and Usage Reports (CUR). These reports reside in BigQuery, and we need to share the BQ dataset with our service account. This permission allows OpsLyft's service principal to extract the data necessary for billing analysis. Once granted, the billing integration process is completed.
 
+![GCP: Billing Integration](/img/gcp/gcp-step-1.png)
+
 ## Project Integration
 
 OpsLyft's integration goes beyond billing; we create an IAM role with specific permissions to provide insights into your GCP project's resources. This involves configuring permissions and services within your GCP project to enable specific APIs. OpsLyft creates a unique IAM role with precise permissions that match its specific requirements. This role is then assigned to a service account associated with your project, facilitating a secure and efficient integration process.
+
+![GCP: Project Integration](/img/gcp/gcp-step-2.png)
 
 :::note Important Note
 
